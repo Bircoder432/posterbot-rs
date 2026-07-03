@@ -1,0 +1,10 @@
+services:
+  posterbot:
+    build: .
+    container_name: posterbot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data/bot.db:/app/data/bot.db
+    environment:
+      - RUST_LOG=posterbot=info,teloxide=info
