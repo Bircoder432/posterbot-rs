@@ -237,8 +237,9 @@ pub async fn publish(
         quoted
     };
 
+    let reply_text = L10n::reply_link_text(lang);
     let reply_link = format!(
-        "\n\n<a href=\"https://t.me/{bot_username}?start=reply_{}\">💬 Reply</a>",
+        "\n\n<a href=\"https://t.me/{bot_username}?start=reply_{}\">{reply_text}</a>",
         first.id
     );
     let caption = format!("{base}{reply_link}");

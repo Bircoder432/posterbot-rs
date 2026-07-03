@@ -544,4 +544,10 @@ impl L10n {
             Locale::Ru => "✅ Язык изменен на Русский.",
         }
     }
+    pub fn reply_link_text(l: Locale) -> &'static str {
+        match l {
+            Locale::En => "💬 Reply",
+            Locale::Ru => "💬 Ответить",
+        }
+    }
 }
