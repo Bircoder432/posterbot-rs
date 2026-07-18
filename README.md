@@ -1,6 +1,8 @@
 # 🤖 PosterBot — Anonymous Telegram Suggestion Bot
 
 > 🇷🇺 **Русская версия:** [README_RU.md](README_RU.md)
+> You also can try my ready-made solution https://t.me/vsanonkabot 
+
 
 PosterBot is a Telegram bot for receiving anonymous suggestions, written in Rust using `teloxide` and `SQLite`. It allows users to anonymously submit ideas, text, photos, videos, audio, and media albums (media groups). Moderators can review submissions, approve them for publication in a Telegram channel, reject them, or ban users.
 
