@@ -1,6 +1,7 @@
 # 🤖 PosterBot — Anonymous Telegram Suggestion Bot
 
 > 🇷🇺 **Русская версия:** [README_RU.md](README_RU.md)
+
 > You also can try my ready-made solution https://t.me/vsanonkabot 
 
 
